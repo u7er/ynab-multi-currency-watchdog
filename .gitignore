@@ -2,3 +2,5 @@
 # ynab-mcw
 
 ynab-mcw.code-workspace
+config.yaml
+**.log

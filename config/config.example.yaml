@@ -1,0 +1,20 @@
+---
+budgets:
+  euro:
+    id: b-id-1
+    currency: eur
+  rubbles:
+    id: b-id-2
+    currency: rub
+  dollars:
+    id: b-id-3
+    currency: usd
+
+syncs:
+  sync1:
+    source: rubbles
+    target: euro
+
+  sync2:
+    source: dollars
+    target: euro
